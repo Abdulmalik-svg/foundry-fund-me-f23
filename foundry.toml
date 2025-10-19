@@ -1,0 +1,10 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+remappings = ["@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/"]
+ffi = true
+dotenv = ".env"
+
+
+[profile.default.rpc_endpoints]
